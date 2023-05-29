@@ -1,0 +1,141 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2860",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "1.0.0",
+  "author": "Deimos Anomaly",
+  "name": "Divine Beginnings",
+  "files": [
+    {
+      "projectID": 220318,
+      "fileID": 3558882,
+      "required": true,
+      "__meta": {
+        "name": "Biomes O' Plenty"
+      }
+    },
+    {
+      "projectID": 227083,
+      "fileID": 2518667,
+      "required": true,
+      "__meta": {
+        "name": "Baubles"
+      }
+    },
+    {
+      "projectID": 228895,
+      "fileID": 3112142,
+      "required": true,
+      "__meta": {
+        "name": "BiomeTweaker"
+      }
+    },
+    {
+      "projectID": 239197,
+      "fileID": 4534504,
+      "required": true,
+      "__meta": {
+        "name": "CraftTweaker"
+      }
+    },
+    {
+      "projectID": 250363,
+      "fileID": 2746011,
+      "required": true,
+      "__meta": {
+        "name": "AutoRegLib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 284350,
+      "fileID": 3533386,
+      "required": true,
+      "__meta": {
+        "name": "Athenaeum",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 284973,
+      "fileID": 3758733,
+      "required": true,
+      "__meta": {
+        "name": "Dropt",
+        "explicit": false,
+        "dependencies": [
+          284350
+        ]
+      }
+    },
+    {
+      "projectID": 298582,
+      "fileID": 3587417,
+      "required": true,
+      "__meta": {
+        "name": "Cave Generator",
+        "dependencies": [
+          513391
+        ]
+      }
+    },
+    {
+      "projectID": 306676,
+      "fileID": 4415746,
+      "required": true,
+      "__meta": {
+        "name": "Pyrotech",
+        "dependencies": [
+          284350,
+          284973,
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 306770,
+      "fileID": 3162874,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 367103,
+      "fileID": 3517526,
+      "required": true,
+      "__meta": {
+        "name": "ModDirector"
+      }
+    },
+    {
+      "projectID": 417392,
+      "fileID": 3895715,
+      "required": true,
+      "__meta": {
+        "name": "Quark: RotN Edition",
+        "dependencies": [
+          250363
+        ]
+      }
+    },
+    {
+      "projectID": 661560,
+      "fileID": 3937843,
+      "required": true,
+      "__meta": {
+        "name": "Even More Realistic Ore Veins"
+      }
+    }
+  ]
+}

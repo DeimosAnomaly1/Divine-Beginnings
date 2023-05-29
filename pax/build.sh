@@ -1,0 +1,3 @@
+./merge.sh
+
+./pax export
