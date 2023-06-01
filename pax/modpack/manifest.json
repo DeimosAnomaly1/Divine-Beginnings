@@ -16,11 +16,38 @@
   "name": "Divine Beginnings",
   "files": [
     {
+      "projectID": 60089,
+      "fileID": 3359843,
+      "required": true,
+      "__meta": {
+        "name": "Mouse Tweaks"
+      }
+    },
+    {
       "projectID": 220318,
       "fileID": 3558882,
       "required": true,
       "__meta": {
         "name": "Biomes O' Plenty"
+      }
+    },
+    {
+      "projectID": 224712,
+      "fileID": 2916368,
+      "required": true,
+      "__meta": {
+        "name": "Wawla - What Are We Looking At",
+        "dependencies": [
+          253449
+        ]
+      }
+    },
+    {
+      "projectID": 226447,
+      "fileID": 2477566,
+      "required": true,
+      "__meta": {
+        "name": "Resource Loader"
       }
     },
     {
@@ -40,11 +67,47 @@
       }
     },
     {
+      "projectID": 229708,
+      "fileID": 3093852,
+      "required": true,
+      "__meta": {
+        "name": "Farseek",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 229769,
+      "fileID": 3109315,
+      "required": true,
+      "__meta": {
+        "name": "Streams",
+        "dependencies": [
+          229708
+        ]
+      }
+    },
+    {
+      "projectID": 238222,
+      "fileID": 4538010,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
       "projectID": 239197,
       "fileID": 4534504,
       "required": true,
       "__meta": {
         "name": "CraftTweaker"
+      }
+    },
+    {
+      "projectID": 241140,
+      "fileID": 2499252,
+      "required": true,
+      "__meta": {
+        "name": "Default World Generator (port)"
       }
     },
     {
@@ -54,6 +117,14 @@
       "__meta": {
         "name": "AutoRegLib",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 253449,
+      "fileID": 2568751,
+      "required": true,
+      "__meta": {
+        "name": "Hwyla"
       }
     },
     {
@@ -75,6 +146,14 @@
         "dependencies": [
           284350
         ]
+      }
+    },
+    {
+      "projectID": 285789,
+      "fileID": 2641661,
+      "required": true,
+      "__meta": {
+        "name": "Born in a Barn"
       }
     },
     {
@@ -111,6 +190,22 @@
       }
     },
     {
+      "projectID": 310778,
+      "fileID": 2971329,
+      "required": true,
+      "__meta": {
+        "name": "Fragile Blocks"
+      }
+    },
+    {
+      "projectID": 320470,
+      "fileID": 2722140,
+      "required": true,
+      "__meta": {
+        "name": "Divergent Underground"
+      }
+    },
+    {
       "projectID": 367103,
       "fileID": 3517526,
       "required": true,
@@ -127,6 +222,34 @@
         "dependencies": [
           250363
         ]
+      }
+    },
+    {
+      "projectID": 419286,
+      "fileID": 4556962,
+      "required": true,
+      "__meta": {
+        "name": "MixinBooter",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 460609,
+      "fileID": 4553503,
+      "required": true,
+      "__meta": {
+        "name": "CensoredASM",
+        "dependencies": [
+          419286
+        ]
+      }
+    },
+    {
+      "projectID": 648514,
+      "fileID": 4404814,
+      "required": true,
+      "__meta": {
+        "name": "Realistic Terrain Generation Unofficial"
       }
     },
     {
